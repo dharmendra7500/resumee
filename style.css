@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+p{
+    font-size: 1.2rem;
+    margin-block: 5px;
+}
+li{
+    font-size: 1.1rem;
+    margin-block: 5px;
+}
+.container{
+    margin: auto;
+    padding: 20px ;
+    width: 1280px;
+}
+.top-banner{
+    margin-top: 20px;
+}
+.objective h3{
+    background-color: #ccbbbb;
+    border-bottom-style:solid;
+}
+.qualification h3{
+    background-color: #ccbbbb;
+    border-bottom-style:solid;
+}
+.project h3{
+    background-color: #ccbbbb;
+    border-bottom-style:solid;
+}
+.tecnical-skills h3{
+    background-color: #ccbbbb;
+    border-bottom-style:solid;
+}
+.hobbies h3{
+    background-color: #ccbbbb;
+    border-bottom-style:solid;
+}
+.banner{
+    display: flex;
+    flex-direction: column;
+}
+
+/* media query */
+@media screen and (max-width: 500px){
+    .banner{
+        flex-wrap: wrap;
+    }
+}
